@@ -1,20 +1,20 @@
-largest = None
-smallest = None
+largest = 0
+smallest = 9999
+
 while True:
-    num = input("Enter a number: ")
-    if num == "done":
-        break
-    print(num)
+  num = input("Enter a number: ")
+  if num == "done":
+      break
+  try:
     num=int(num)
-    l=[]
-    l.append(num)
-    i=0
-    largest=l[i]
-    smallest=l[i]
-    for i in l:
-        if l[i]>largest:
-            largest=l[i]
-        if l[i]<smallest:
-            smallest=l[i]
+    print(num)
+    if num>largest:
+      largest=num
+    if num<smallest:
+      smallest=num
+    
+  except:
+    print("Invalid input")
+  
 print("Maximum", largest)
 print("Minimum",smallest)
