@@ -1,5 +1,5 @@
-name = input("Enter file:")
-handle = open(name)
+name=input("Enter file:")
+handle=open(name)
 d=dict()
 for line in handle:
     if line.startswith("From:"):
