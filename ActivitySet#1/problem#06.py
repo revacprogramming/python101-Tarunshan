@@ -15,6 +15,5 @@ while True:
     
   except:
     print("Invalid input")
-  
 print("Maximum", largest)
 print("Minimum",smallest)
