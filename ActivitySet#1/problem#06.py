@@ -1,6 +1,5 @@
 largest = 0
 smallest = 9999
-
 while True:
   num = input("Enter a number: ")
   if num == "done":
