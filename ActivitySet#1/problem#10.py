@@ -15,4 +15,4 @@ for n,m in d.items():
         l=m
         k=n
 print(k,l)
-   
+ 
